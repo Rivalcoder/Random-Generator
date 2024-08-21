@@ -25,6 +25,7 @@ function fun() {
     } else {
         alert("Error")
       
-      }  change.style.display = 'none'; 
+        change.style.display = 'none'; 
     }
+}
 }
