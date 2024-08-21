@@ -14,7 +14,7 @@ function fun() {
     const combinedArray = usertext.split(/[\s\n]+/);
     const len = combinedArray.length-1;
 
-    const b=Math.floor(Math.random() * (len - 0) + 0);
+    const b=Math.round(Math.random() * (len));
     console.log(b);
     console.log(len);
     change.style.display = 'none';
