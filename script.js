@@ -1,7 +1,14 @@
 function fun() {
+    
     const change = document.getElementById('out');
     const area = document.getElementById('area');
     const usertext = area.value;
+    if(usertext==="")
+    {
+        alert("Please enter values...")
+    }
+    else
+    { 
     const a=1;
     console.log(usertext);
     const combinedArray = usertext.split(/[\s\n]+/);
@@ -17,6 +24,7 @@ function fun() {
         out.innerHTML=combinedArray[b];
     } else {
         alert("Error")
-        change.style.display = 'none'; 
+      
+      }  change.style.display = 'none'; 
     }
 }
