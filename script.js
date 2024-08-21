@@ -1,5 +1,6 @@
 function fun() {
     
+    
     const change = document.getElementById('out');
     const area = document.getElementById('area');
     const usertext = area.value;
@@ -12,7 +13,7 @@ function fun() {
     const a=1;
     console.log(usertext);
     const combinedArray = usertext.split(/[\s\n]+/);
-    const len = combinedArray.length-1;
+    const len = (combinedArray.length)-1;
 
     const b=Math.round(Math.random() * (len));
     console.log(b);
