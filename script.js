@@ -14,7 +14,13 @@ function fun() {
     console.log(usertext);
     const combinedArray = usertext.split(/[\s\n]+/);
     const len = (combinedArray.length)-1;
-
+    if(len===1)
+    {
+        alert("Processing....");
+        change.style.display = 'flex';
+        out.innerHTML=combinedArray[0];
+        return 0;
+    }
     const b=Math.round(Math.random() * (len));
     console.log(b);
     console.log(len);
