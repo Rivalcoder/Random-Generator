@@ -11,9 +11,19 @@ function fun() {
     else
     { 
     const a=1;
-    console.log(usertext);
+    //console.log(usertext);
     const combinedArray = usertext.split(/[\s\n]+/);
-    const len = (combinedArray.length)-1;
+    console.log(combinedArray);
+    let len = (combinedArray.length)-1;
+    
+    for (let i = 0; i <(combinedArray.length); i++) {
+        // console.log("Hiii");
+        if(combinedArray[i]==="")
+        {
+            len=len-1;
+        }
+      }
+      
     if(len===1)
     {
         alert("Processing....");
