@@ -10,10 +10,14 @@ function fun() {
     }
     else
     { 
-    const a=1;
+  
     //console.log(usertext);
-    const combinedArray = usertext.split(/[\s\n]+/);
+    let combinedArray = usertext.split(/[\s\n]+/);
     console.log(combinedArray);
+    combinedArray=combinedArray.sort(() => Math.random() - 0.5);
+    console.log(combinedArray);
+    let a1=combinedArray.join('\n');
+    area.value=a1;
     let len = (combinedArray.length)-1;
     
     for (let i = 0; i <(combinedArray.length); i++) {
