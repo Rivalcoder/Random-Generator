@@ -14,12 +14,12 @@ This application allows users to enter a list of values or names and select a ra
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/Spin-Wheel.git
+    git clone https://github.com/Rivalcoder/Random-Generator.git
     ```
 
 2. Navigate to the project directory:
     ```sh
-    cd Spin-Wheel
+    cd Random-Generator
     ```
 
 3. Open the `index.html` file in your browser to use the application.
